@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    height: 120px;
+    background-color: #D76E11;
+}
+
+.logo {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    padding-right: 125px;
+
+}
+
+.profile-pic {
+    justify-content: flex-end;
+}
