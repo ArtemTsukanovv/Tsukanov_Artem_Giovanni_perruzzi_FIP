@@ -1,37 +1,329 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    height: 120px;
-    background-color: #D76E11;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  background-color: #d76e11;
 }
 
+.main-nav li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.main-nav li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+.main-nav li a:hover {
+    color: #fdc99b;
+  }
+
+
 .logo {
-    padding-top: 35px;
-    padding-left: 100px;
+  padding-top: 35px;
+  padding-left: 100px;
 }
 
 ul {
-    display: flex;
-    font-size: 25px;
-    padding-right: 80px;
+  display: flex;
+  font-size: 25px;
+  padding-right: 80px;
 }
 
 li {
-    padding-top: 38px;
-    padding-right: 125px;
+  padding-top: 38px;
+  padding-right: 125px;
 }
+
+.profile-pic {
+  padding-top: 25px;
+}
+
+/* footer */
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  place-content: center;
+}
+
+h3 {
+  color: #d76e11;
+  padding-right: 50px;
+}
+
+/* footer end */
+
+/* homepage */
+#top {
+  font-size: 20px;
+  padding-top: 49px;
+  margin: auto;
+  padding-left: 60px;
+  text-align: center;
+  max-width: 1484px;
+}
+
+.intro {
+  font-size: 20px;
+}
+
+#bg-image {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+.version-4-image {
+  position: relative;
+  bottom: 89px;
+}
+
+hr {
+  width: 1151px;
+  margin: auto;
+}
+
+#middle {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.middle-logo-and-subtext {
+  display: inline;
+}
+
+.version-2-image {
+  display: flex;
+  margin: auto;
+}
+
+.subtext {
+  font-size: 18px;
+}
+
+.fill {
+  color: #000000;
+  padding-right: 5px;
+}
+
+.the {
+  color: #000000;
+  padding-right: 5px;
+}
+
+.holes {
+  color: #D76E11;
+  padding-right: 5px;
+}
+
+.in {
+  color: #000000;
+  padding-right: 5px;
+}
+
+.your {
+  color: #D76E11;
+  padding-right: 5px;
+}
+
+.day {
+  color: #D76E11;
+  padding-right: 5px;
+}
+
+.paragraphs {
+  padding-top: 36px;
+  margin: auto;
+  text-align: center;
+}
+
+.line1 {
+  font-size: 20px;
+}
+
+.line2 {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+
+#bottom {
+  padding-top: 27px;
+  margin: auto;
+}
+
+.button1 {
+  display: inline-flex;
+  background-color: #D76E11;
+  border-radius: 25px;
+  width: 115px;
+  height: 24px;
+  vertical-align: middle;
+  
+}
+
+.heading {
+  margin-left: 25em;
+  display: inline-flex;
+}
+/* homepage end */
+
+/* contact page */
+
+.contactPage {
+  background-color: black;
+}
+
+.polly-filla-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contactBox {
+  background: #d76e11;
+}
+
+.inputRow {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inputRow .inputGroup {
+  flex-basis: 45%;
+}
+input {
+  width: 590px;
+  height: 52px;
+  outline: none;
+  border-radius: 25px;
+  border: 1px solid #d76e11;
+  background-color: #000000;
+  padding-bottom: 5px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 201px;
+  border-radius: 25px;
+  border: 1px solid #d76e11;
+  background-color: #000000;
+  outline: none;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 3px;
+  display: block;
+  color: #d76e11;
+}
+button {
+  background: #d76e11;
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: #000000;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 200px;
+}
+
+.hello {
+  display: inline-grid;
+  grid-template-rows: 100px 100px 100px;
+  justify-content: center;
+  padding-top: 30px;
+  margin-left: 29px;
+}
+
+.reachus {
+  margin-left: 29px;
+  margin-top: 70px;
+}
+
+.i_am_tired {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.one {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.two {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.three {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* contact page end */
+
+/* merch page  */
+.merch {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    
+
+}
+.mechPage {
+    background-color: #000000;
+}
+
+.merch-image-1 {
+    border: 1px solid #d76e11;
+    height: 210px;
+    width: 545px;
+    margin-bottom: 30px;
+}
+
+.merch-image-2 {
+    border: 1px solid #d76e11;
+    height: 210px;
+    width: 545px;
+    margin-bottom: 30px;
+}
+
+.merch-image-3 {
+    border: 1px solid #d76e11;
+    height: 210px;
+    width: 545px;
+    margin-bottom: 30px;
+}
+
+.merch-image-4 {
+    border: 1px solid #d76e11;
+    height: 210px;
+    width: 545px;
+    margin-bottom: 80px;
+}
+    
+
+/* merch page end */

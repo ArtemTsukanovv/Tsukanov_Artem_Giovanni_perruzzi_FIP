@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="images/version-3-logo.png">
     <title>Contact Page</title>
 </head>
-<body>
+<body class="contactPage">
     <section id="container">
         <h1 class="hidden">Container</h1>
         <div class="header">
@@ -35,13 +35,21 @@
             <h1 class="hidden">Form</h1>
             <div class="polly-filla-form">
                 <form>
-                    <input type="text" placeholder="NAME" id="name" name="Name">
-                    <br>
-                    <input type="text" placeholder="EMAIL" id="email" name="EMAIL">
-                    <br>
-                    <img class="polly-filla-form" src="images/version-3-logo.png" alt="Polly Filla Logo">
-                    <br>
-                    <input type="text" placeholder="TEXT" id="text" name="TEXT">
+                    <div class="inputRow">
+                        <div class="inputGroup"></div>
+                        <label> NAME </label>
+                        <input type="text" placeholder="NAME">
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputGroup"></div>
+                        <label> EMAIL </label>
+                        <input type="email" placeholder=" EMAIL">
+                    </div>
+                    <label> MESSAGE </label>
+                    <textarea rows="7" placeholder=" MESSAGE "></textarea>
+    
+                    <button type="submit"> SEND </button>
+                </form>
                 </form>
             </div>
         </section>
