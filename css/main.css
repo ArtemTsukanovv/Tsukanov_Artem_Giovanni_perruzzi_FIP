@@ -21,19 +21,18 @@ img {
 }
 
 .main-nav li a {
-    text-decoration: none;
-    list-style: none;
-    color: black;
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
 
 .main-nav li a {
-    transition: all 0.3s ease 0s;
-  }
-  
-.main-nav li a:hover {
-    color: #fdc99b;
-  }
+  transition: all 0.3s ease 0s;
+}
 
+.main-nav li a:hover {
+  color: #fdc99b;
+}
 
 .logo {
   padding-top: 35px;
@@ -129,7 +128,7 @@ hr {
 }
 
 .holes {
-  color: #D76E11;
+  color: #d76e11;
   padding-right: 5px;
 }
 
@@ -139,12 +138,12 @@ hr {
 }
 
 .your {
-  color: #D76E11;
+  color: #d76e11;
   padding-right: 5px;
 }
 
 .day {
-  color: #D76E11;
+  color: #d76e11;
   padding-right: 5px;
 }
 
@@ -171,12 +170,11 @@ hr {
 
 .button1 {
   display: inline-flex;
-  background-color: #D76E11;
+  background-color: #d76e11;
   border-radius: 25px;
   width: 115px;
   height: 24px;
   vertical-align: middle;
-  
 }
 
 .heading {
@@ -285,45 +283,42 @@ button {
 
 /* merch page  */
 .merch {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    flex-direction: column;
-    margin-top: 80px;
-    
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
 }
 .mechPage {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .merch-image-1 {
-    border: 1px solid #d76e11;
-    height: 210px;
-    width: 545px;
-    margin-bottom: 30px;
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 30px;
 }
 
 .merch-image-2 {
-    border: 1px solid #d76e11;
-    height: 210px;
-    width: 545px;
-    margin-bottom: 30px;
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 30px;
 }
 
 .merch-image-3 {
-    border: 1px solid #d76e11;
-    height: 210px;
-    width: 545px;
-    margin-bottom: 30px;
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 30px;
 }
 
 .merch-image-4 {
-    border: 1px solid #d76e11;
-    height: 210px;
-    width: 545px;
-    margin-bottom: 80px;
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 80px;
 }
-    
 
 /* merch page end */
