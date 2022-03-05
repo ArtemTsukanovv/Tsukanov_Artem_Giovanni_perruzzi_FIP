@@ -1,3 +1,5 @@
+/* general styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* general styles end */
+
+/* homepage start */
 
 .header {
   display: flex;
@@ -50,25 +56,15 @@ li {
   padding-right: 125px;
 }
 
-.profile-pic {
-  padding-top: 25px;
-}
-
-/* footer */
-.footer-links {
+.pic {
   display: flex;
-  justify-content: space-evenly;
-  place-content: center;
+  padding-top: 25px;
+  padding-right: 100px;
+  position: relative;
+  bottom: 3.7em;
+  justify-content: flex-end;
 }
 
-h3 {
-  color: #d76e11;
-  padding-right: 50px;
-}
-
-/* footer end */
-
-/* homepage */
 #top {
   font-size: 20px;
   padding-top: 49px;
@@ -165,30 +161,39 @@ hr {
 
 #bottom {
   padding-top: 27px;
-  margin: auto;
 }
 
-.button1 {
-  display: inline-flex;
-  background-color: #d76e11;
-  border-radius: 25px;
-  width: 115px;
-  height: 24px;
-  vertical-align: middle;
+.button3 {
+  display: flex;
+  justify-content: center;
 }
 
 .heading {
-  margin-left: 25em;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-text {
+  display: flex;
+  justify-content: center;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  padding-top: 60px;
+  margin-right: 50px;
 }
 /* homepage end */
 
-/* contact page */
+/* contact page start */
 
 .contactPage {
   background-color: black;
 }
-
 .polly-filla-form {
   display: flex;
   justify-content: center;
@@ -216,6 +221,7 @@ input {
   border: 1px solid #d76e11;
   background-color: #000000;
   padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 textarea {
@@ -279,9 +285,22 @@ button {
   padding-bottom: 20px;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  place-content: center;
+  padding-top: 50px;
+}
+
+h3 {
+  color: #d76e11;
+  padding-right: 50px;
+}
+
 /* contact page end */
 
-/* merch page  */
+/* merch page start  */
+
 .merch {
   display: flex;
   align-items: center;
@@ -289,7 +308,7 @@ button {
   flex-direction: column;
   margin-top: 80px;
 }
-.mechPage {
+.merchPage {
   background-color: #000000;
 }
 
@@ -322,3 +341,73 @@ button {
 }
 
 /* merch page end */
+
+/* menu page starts */
+
+.dropdown-and-button {
+  display: flex;
+  flex-direction: column;
+  background-color: #d76e11;
+  text-align: center;
+  width: 9em;
+}
+
+/* menu page ends */
+
+/* beer page start */
+
+#polly-filla-logo-version-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.polly-filla-logo-3 {
+  padding-top: 10px;
+}
+
+#promotional-image-and-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+/* beer page ends */
+
+/* account page starts */
+
+/* account page ends */
+
+/* shop page starts */
+
+#shopping-beer-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-images {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.right-images {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+
+.footer-links-headings1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links-headings2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* shop page ends */
