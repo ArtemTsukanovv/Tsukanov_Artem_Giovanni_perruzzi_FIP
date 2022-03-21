@@ -171,6 +171,7 @@ hr {
 .heading {
   display: flex;
   justify-content: center;
+  color: #d76e11;
 }
 
 .heading-text {
@@ -186,6 +187,7 @@ hr {
 video {
   padding-top: 60px;
   margin-right: 50px;
+  padding-bottom: 44px;
 }
 /* homepage end */
 
