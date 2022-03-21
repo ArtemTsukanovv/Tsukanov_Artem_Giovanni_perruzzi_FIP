@@ -356,19 +356,47 @@ h3 {
 
 /* beer page start */
 
+.beerBgcolor {
+  background-color: #000000;
+}
+
 #polly-filla-logo-version-3 {
   display: flex;
   justify-content: center;
 }
 
 .polly-filla-logo-3 {
-  padding-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 29px;
 }
 
 #promotional-image-and-text {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+}
+
+.promotional-image-text {
+  padding-top: 26px;
+  padding-bottom: 36px;
+}
+
+.pi {
+  padding-bottom: 25px;
+  padding-left: 195px;
+}
+
+.pi-text {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.other-beer {
+  padding-top: 25px;
+}
+
+.heading1, .heading2, .heading3 {
+  color: #d76e11;
+  padding-top: 25px;
 }
 
 /* beer page ends */
