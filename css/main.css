@@ -287,16 +287,14 @@ button {
   padding-bottom: 20px;
 }
 
-.footer-links {
+#footer {
   display: flex;
-  justify-content: space-evenly;
-  place-content: center;
-  padding-top: 50px;
+  flex-direction: row;
 }
 
-h3 {
-  color: #d76e11;
-  padding-right: 50px;
+.footer-links1, .footer-links2 {
+  color: #FFFFFF;
+  padding-top: 57px;
 }
 
 /* contact page end */
@@ -340,6 +338,12 @@ h3 {
   height: 210px;
   width: 545px;
   margin-bottom: 80px;
+}
+
+.footer-links, .footer-links-2 {
+  color: #d76e11;
+  display: flex;
+  flex-direction: column;
 }
 
 /* merch page end */
@@ -397,10 +401,17 @@ h3 {
 }
 
 .heading1, .heading2, .heading3 {
+  display: flex;
+  justify-content: center;
   color: #d76e11;
   padding-top: 25px;
 }
 
+#other-beer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 /* beer page ends */
 
 /* account page starts */
@@ -409,35 +420,16 @@ h3 {
 
 /* shop page starts */
 
-#shopping-beer-images {
-  display: flex;
-  justify-content: space-around;
-}
-
-.left-images {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.right-images {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 #footer {
   display: flex;
-  padding-top: 10px;
   justify-content: space-around;
 }
 
-.footer-links-headings1 {
+.header-and-links, .header-and-links2 {
+  color: #d76e11;
   display: flex;
   flex-direction: column;
 }
 
-.footer-links-headings2 {
-  display: flex;
-  flex-direction: column;
-}
 
 /* shop page ends */
