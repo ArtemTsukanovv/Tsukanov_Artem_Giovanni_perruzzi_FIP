@@ -1,0 +1,459 @@
+/* general styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* general styles end */
+
+/* homepage start */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  background-color: #d76e11;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.main-nav li a {
+  transition: all 0.3s ease 0s;
+}
+
+.main-nav li a:hover {
+  color: #fdc99b;
+}
+
+.logo {
+  padding-top: 35px;
+  padding-left: 100px;
+}
+
+ul {
+  display: flex;
+  font-size: 25px;
+  padding-right: 80px;
+}
+
+li {
+  padding-top: 38px;
+  padding-right: 125px;
+}
+
+.pic {
+  display: flex;
+  padding-top: 25px;
+  padding-right: 100px;
+  position: relative;
+  bottom: 3.7em;
+  justify-content: flex-end;
+}
+
+#top {
+  font-size: 20px;
+  padding-top: 49px;
+  margin: auto;
+  padding-left: 60px;
+  text-align: center;
+  max-width: 1484px;
+}
+
+.intro {
+  font-size: 20px;
+}
+
+#bg-image {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+.version-4-image {
+  position: relative;
+  bottom: 89px;
+}
+
+hr {
+  width: 1151px;
+  margin: auto;
+}
+
+#middle {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.middle-logo-and-subtext {
+  display: inline;
+}
+
+.version-2-image {
+  display: flex;
+  margin: auto;
+}
+
+.subtext {
+  font-size: 18px;
+}
+
+.fill {
+  color: #000000;
+  padding-right: 5px;
+}
+
+.the {
+  color: #000000;
+  padding-right: 5px;
+}
+
+.holes {
+  color: #d76e11;
+  padding-right: 5px;
+}
+
+.in {
+  color: #000000;
+  padding-right: 5px;
+}
+
+.your {
+  color: #d76e11;
+  padding-right: 5px;
+}
+
+.day {
+  color: #d76e11;
+  padding-right: 5px;
+}
+
+.paragraphs {
+  padding-top: 36px;
+  margin: auto;
+  text-align: center;
+}
+
+.line1 {
+  font-size: 20px;
+}
+
+.line2 {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+
+#bottom {
+  padding-top: 27px;
+}
+
+.button3 {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: #d76e11;
+}
+
+.heading-text {
+  display: flex;
+  justify-content: center;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  padding-top: 60px;
+  margin-right: 50px;
+  padding-bottom: 44px;
+}
+/* homepage end */
+
+/* contact page start */
+
+.contactPage {
+  background-color: black;
+}
+.polly-filla-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contactBox {
+  background: #d76e11;
+}
+
+.inputRow {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inputRow .inputGroup {
+  flex-basis: 45%;
+}
+input {
+  width: 590px;
+  height: 52px;
+  outline: none;
+  border-radius: 25px;
+  border: 1px solid #d76e11;
+  background-color: #000000;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 201px;
+  border-radius: 25px;
+  border: 1px solid #d76e11;
+  background-color: #000000;
+  outline: none;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 3px;
+  display: block;
+  color: #d76e11;
+}
+button {
+  background: #d76e11;
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: #000000;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 200px;
+}
+
+.hello {
+  display: inline-grid;
+  grid-template-rows: 100px 100px 100px;
+  justify-content: center;
+  padding-top: 30px;
+  margin-left: 29px;
+}
+
+.reachus {
+  margin-left: 29px;
+  margin-top: 70px;
+}
+
+.i_am_tired {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.one {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.two {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.three {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-links1, .footer-links2 {
+  color: #FFFFFF;
+  padding-top: 57px;
+}
+
+/* contact page end */
+
+/* merch page start  */
+
+.merch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.merchPage {
+  background-color: #000000;
+}
+
+.merch-image-1 {
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 30px;
+}
+
+.merch-image-2 {
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 30px;
+}
+
+.merch-image-3 {
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 30px;
+}
+
+.merch-image-4 {
+  border: 1px solid #d76e11;
+  height: 210px;
+  width: 545px;
+  margin-bottom: 80px;
+}
+
+.footer-links, .footer-links-2 {
+  color: #d76e11;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+/* merch page end */
+
+/* menu page starts */
+
+.dropdown-and-button {
+  display: flex;
+  flex-direction: column;
+  background-color: #d76e11;
+  text-align: center;
+  width: 9em;
+}
+
+/* menu page ends */
+
+/* beer page start */
+
+.beerBgcolor {
+  background-color: #000000;
+}
+
+#polly-filla-logo-version-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.polly-filla-logo-3 {
+  padding-top: 25px;
+  padding-bottom: 29px;
+}
+
+#promotional-image-and-text {
+  display: flex;
+  justify-content: center;
+}
+
+.promotional-image-text {
+  padding-top: 26px;
+  padding-bottom: 36px;
+}
+
+.pi {
+  padding-bottom: 25px;
+  padding-left: 195px;
+}
+
+.pi-text {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.other-beer, .other-beer2, .other-beer3 {
+  padding-top: 25px;
+}
+
+.heading-1, .heading-2, .heading-3 {
+  display: flex;
+  justify-content: center;
+  color: #d76e11;
+  padding-top: 25px;
+}
+
+#other-beer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* beer page ends */
+
+/* account page starts */
+
+/* account page ends */
+
+/* shop page starts */
+
+.left-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 55px;
+}
+
+.right-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.middle-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 65px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-and-links, .header-and-links2 {
+  color: #d76e11;
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+}
+
+
+/* shop page ends */
