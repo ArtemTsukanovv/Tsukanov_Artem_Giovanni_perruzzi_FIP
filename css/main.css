@@ -68,25 +68,22 @@ li {
 #top {
   font-size: 20px;
   padding-top: 49px;
-  margin: auto;
-  padding-left: 60px;
+  margin-bottom: 20px;
+  padding-left: 21em;
   text-align: center;
   max-width: 1484px;
 }
 
+.intro-text {
+  font-size: 28px;
+}
+
+.the-way-we-have-come {
+  font-size: 24px;
+}
+
 .intro {
   font-size: 20px;
-}
-
-#bg-image {
-  display: flex;
-  justify-content: flex-start;
-  margin: auto;
-}
-
-.version-4-image {
-  position: relative;
-  bottom: 89px;
 }
 
 hr {
@@ -169,12 +166,14 @@ hr {
 }
 
 .heading {
+  font-size: 25px;
   display: flex;
   justify-content: center;
   color: #d76e11;
 }
 
 .heading-text {
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
@@ -196,6 +195,15 @@ video {
 .contactPage {
   background-color: black;
 }
+
+.aside-logo {
+  display: flex;
+  justify-content: center;
+  margin-left: 25em;
+  position: relative;
+  top: 101px;
+}
+
 .polly-filla-form {
   display: flex;
   justify-content: center;
@@ -216,10 +224,10 @@ video {
   flex-basis: 45%;
 }
 input {
-  width: 590px;
+  width: 468px;
   height: 52px;
   outline: none;
-  border-radius: 25px;
+  border-radius: 23px;
   border: 1px solid #d76e11;
   background-color: #000000;
   padding-bottom: 5px;
@@ -251,7 +259,7 @@ button {
   color: #000000;
   border-radius: 30px;
   margin-top: 15px;
-  margin-bottom: 200px;
+  margin-bottom: 65px;
 }
 
 .hello {
@@ -314,29 +322,21 @@ button {
 
 .merch-image-1 {
   border: 1px solid #d76e11;
-  height: 210px;
-  width: 545px;
   margin-bottom: 30px;
 }
 
 .merch-image-2 {
   border: 1px solid #d76e11;
-  height: 210px;
-  width: 545px;
   margin-bottom: 30px;
 }
 
 .merch-image-3 {
   border: 1px solid #d76e11;
-  height: 210px;
-  width: 545px;
   margin-bottom: 30px;
 }
 
 .merch-image-4 {
   border: 1px solid #d76e11;
-  height: 210px;
-  width: 545px;
   margin-bottom: 80px;
 }
 
@@ -354,9 +354,19 @@ button {
 .dropdown-and-button {
   display: flex;
   flex-direction: column;
-  background-color: #d76e11;
+  background-color: #AA5911;
   text-align: center;
-  width: 9em;
+  width: 267px;
+  align-items: center;
+  position: relative;
+  right: 100px;
+  bottom: 30px;
+}
+
+.dropdown-and-button a {
+  padding-bottom: 63px;
+  text-decoration: none;
+  color: #000000;
 }
 
 /* menu page ends */
@@ -389,12 +399,13 @@ button {
 
 .pi {
   padding-bottom: 25px;
-  padding-left: 195px;
+  padding-left: 50px;
 }
 
 .pi-text {
   font-size: 20px;
   color: #FFFFFF;
+  margin-left: 5em;
 }
 
 .other-beer, .other-beer2, .other-beer3 {
@@ -415,11 +426,11 @@ button {
 }
 /* beer page ends */
 
-/* account page starts */
-
-/* account page ends */
-
 /* shop page starts */
+
+.bg-color {
+  background-color: #000000;
+}
 
 .left-images {
   display: flex;
@@ -438,7 +449,7 @@ button {
 .middle-image {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-left: 285px;
   padding-top: 40px;
   padding-bottom: 65px;
 }
@@ -454,6 +465,5 @@ button {
   flex-direction: column;
   padding-top: 75px;
 }
-
 
 /* shop page ends */
