@@ -1,0 +1,9 @@
+These files need to be submitted for this assignment:
+
+● Github repo link with a well-written Readme doc - correct folder structure and
+naming convention (LastName_FirstInital_ProjectName)
+
+● Google Drive roadmap document with synopsis, dev steps, considerations etc
+
+Please DO NOT submit design files or video working files - web ready assets only.
+DO NOT SUBMIT ANY ZIPPED FILES
